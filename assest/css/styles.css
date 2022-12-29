@@ -1,0 +1,84 @@
+:root{
+    --whitelite: #fffcfc;
+}
+
+body{
+    font-family: 'Arial';
+    background-color: rgb(233, 234, 234);
+}
+
+h1{
+    padding-top: 25px;
+    margin-top: 100px;
+    color: var(--whitelite);
+    text-align: center;
+}
+
+h2{
+    color: var(--whitelite);
+}
+
+#addBtn{
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+    width: 30%;
+    padding: 10px;
+    color: var(--whitelite);
+    font-size:large;
+}
+
+.card{
+    margin:0px auto;
+    text-align: center;
+    width: 600px;
+    height: 450px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+form{
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+form input[type="text"]{
+    color: black;
+    border-style: none;
+    width: 50%;
+    font-size: large;
+    padding: 8px;
+}
+
+.list-container{
+    max-width: 400px;
+    margin: 0 auto;
+}
+.task-container{
+    background-color: var(--whitelite);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    border-radius: 4px;
+    padding: 6px;
+    color: black;
+    font-weight: 400;
+}
+
+.closeBtn{
+    width: 18px;
+    height: 18px;
+}
+
+.closeBtn:hover{
+    cursor: pointer;
+}
+
+#stats{
+    margin: 25px 0 50px;
+    color: var(--whitelite);
+    text-align: center;
+    font-size: 1em;
+    font-size: x-large;
+}
